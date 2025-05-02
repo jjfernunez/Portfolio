@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .rounded-box {
+      border-radius: 20px;
+      background: #fff;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      margin-top: 2rem;
+    }
+    .contacto-flex {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .contacto-item {
+      min-width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Chipp Chat Widget -->
+  <script>
+    window.CHIPP_APP_URL = "https://asistentedejuanjose-62329.chipp.ai";
+    window.CHIPP_APP_ID = 62329;
+  </script>
+  
+  <link rel="stylesheet" href="https://storage.googleapis.com/chipp-chat-widget-assets/build/bundle.css" />
+  
+  <script defer src="https://storage.googleapis.com/chipp-chat-widget-assets/build/bundle.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Juan José Fernández</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="rounded-box">
+      <h1 class="mb-4 text-center">Contacto</h1>
+      <div class="contacto-flex">
+        <div class="contacto-item">
+          <i class="fas fa-phone fa-2x text-primary mb-2"></i>
+          <p>+34 675 124 454</p>
+        </div>
+        <div class="contacto-item">
+          <i class="fas fa-envelope fa-2x text-primary mb-2"></i>
+          <p>jj.fernandez.nunez@gmail.com</p>
+        </div>
+        <div class="contacto-item">
+          <i class="fab fa-linkedin fa-2x text-primary mb-2"></i>
+          <p><a href="https://www.linkedin.com/in/juan-jose-fernandez-nunez-6338701b1" target="_blank">linkedin.com/in/JuanJoseFernandez</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
